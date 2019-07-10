@@ -7,3 +7,9 @@ Comparing the performance of models among MLP, Xgboost, and Logistic, and choose
 
 **[02-Mass-Transit-Analysis](https://github.com/TomLin/Playground/blob/master/02-Mass-Transit-Analysis.ipynb)**<br/>
 By the end of this analysis, I am able to come up with a list of suggested stations for ads placement. Adhering  to the stations, I also obtain a table of expected commute time for various subway routes.
+
+
+**[04-Model-Comparison-Word2vec-Doc2vec-TfIdfWeighted](https://github.com/TomLin/Playground/blob/master/04-Model-Comparison-Word2vec-Doc2vec-TfIdfWeighted.ipynb)**<br/>
+In this post, I'd like to test out the effect of different kinds of wordembeddings on text classifier. 
+The wordembeddings investigated here include word2vec, TF-IDF weighted word2vec, pre-train GloVe word2vec and doc2vec.
+It turns out that there is no significant difference among their performance, in the meantime, pre-train Glove and doc2vec alone seem to under-perform a bit compared with others.   
