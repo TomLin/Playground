@@ -20,6 +20,9 @@ First, I set up a classifier without pre-training and then compare it with one i
 It turns out the classifier without pre-training has higher score on both f1 and accuracy.
 Nonetheless, take it with a grain of salt. If we look closely, the one with pre-training performs better at identifying rare classes.
 It still has its own merits if identifying rare classes matter.
+
+**[06-Recsys-Variants-SVD-Recommender](https://github.com/TomLin/Playground/blob/master/06-1-Recsys-Data-Preprocess.ipynb)**<br/>
+This post consists of 5 jupyter notebookes, beginning from data preprocessing to model training. In this post, we focus on CF, particularly SVD-based algorithms. We'll practice on building not only SVD based model, but also its variations, such as one with regularization and the other, neural network adopted. The final founding is that recommender built on neural network(NCF) has the best performance in terms of RMSE. Nevertheless, most SVD based models can roughly achieve quality result as long as each item and user of the dataset having enough interaction records, meaning no significant problem of cold-start.
  
 
 
